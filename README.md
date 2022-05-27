@@ -16,7 +16,7 @@
 * 뉴스
 ![3](https://user-images.githubusercontent.com/86655589/170650780-cee1923c-494f-4a79-8e9d-3c3e70bb8da3.png)
 
-*아파트
+* 아파트
 ![4](https://user-images.githubusercontent.com/86655589/170650783-c8ab137f-6968-403f-ad99-16e78e561d7d.jpg)
 
 * 아파트 상세
@@ -27,5 +27,4 @@
 
 
 
-##
-* 
+
