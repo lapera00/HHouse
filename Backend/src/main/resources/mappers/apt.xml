@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.mapper.HouseMapMapper">
+
+	<select id="getSido" resultType="sidoGugunDongCodeDto">
+		select left(sidoCode,2) sidoCode, sidoName
+		from sidocode
+		order by sidoCode
+	</select>
+	
+	<select id="getGugunInSido" parameterType="string" resultType="sidoGugunDongCodeDto">
+		select left(gugunCode,5) gugunCode, gugunName
+		from guguncode
+		where left(gugunCode,2) = #{sido}
+		order by gugunCode
+	</select>
+	
+	<select id="getDongInGugun" parameterType="string" resultType="sidoGugunDongCodeDto">
+	    select dongCode, dongName
+	    from dongcode
+	    where left(dongCode, 5) = #{gugun} and dongName is Not Null
+    	order by dongCode
+	</select>
+	
+	<select id="getAptInDong" parameterType="string" resultType="HouseInfoDto">
+		select h.aptCode, h.apartmentName, h.dongCode, c.sidoName, c.gugunName, c.dongName, h.buildYear, h.jibun, h.lat, h.lng, (select count(*) from housedeal d where d.aptCode = h.aptCode) cnt
+		from houseinfo h left join dongcode c
+		on h.dongCode = c.dongCode
+		where h.dongCode = #{dong}
+	</select>
+	
+	<select id="getHouseDeal" parameterType="string" resultType="HouseDealDto">
+	    select dealAmount, dealYear, dealMonth, dealDay, area, floor, aptCode
+	    from housedeal
+	    where aptCode = #{apt}
+    	order by dealYear desc, dealMonth desc, dealDay desc
+	</select>
+	
+	<select id="getLikeHouse" parameterType="string" resultType="HouseLikeDto">
+		select userid, aptCode
+		from likehouse
+		where userid= #{userid}
+	</select>
+	
+	<insert id="registLikeHouse" parameterType="HouseLikeDto">
+		insert into likehouse(
+			userid, aptCode
+		) values (
+			#{userid}, #{aptCode}
+		)
+	</insert>
+	
+	<delete id="deleteLikeHouse" parameterType="HouseLikeDto">
+		delete 
+		from likehouse
+		where userid = #{userid} and aptCode = #{aptCode}
+	</delete>
+	
+	<select id="getAptInfo" parameterType="long" resultType="HouseInfoDto">
+		select h.aptCode, h.apartmentName, h.dongCode, c.sidoName, c.gugunName, c.dongName, h.buildYear, h.jibun, h.lat, h.lng, (select count(*) from housedeal d where d.aptCode = h.aptCode) cnt
+		from houseinfo h left join dongcode c
+		on h.dongCode = c.dongCode
+		where h.aptCode = ${aptCode}
+	</select>
+</mapper>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.mapper.UserMapper">
+	<!-- 
+	<select id="login" parameterType="map" resultType="UserDto">
+		select userid, username, email, userpwd
+		from ssafy_member
+		where userid = #{userid} and userpwd= #{userpwd}
+	</select>
+	
+	<select id="mypage" parameterType="String" resultType="UserDto">
+		select userid, username, email, userpwd
+		from ssafy_member
+		where userid = #{userid}
+	</select>
+	
+
+
+	 -->
+
+	
+	<insert id="registerMember" parameterType="UserDto">
+		insert into ssafy_member (userid, username, userpwd, email)
+		values (#{userid}, #{username}, #{userpwd}, #{email} )
+	</insert>
+	
+	<select id="login" parameterType="userDto" resultType="userDto">
+		select username, userid, email, authority
+		from ssafy_member
+		where userid = #{userid} and userpwd = #{userpwd}
+	</select>
+	
+	<select id="userInfo" parameterType="String" resultType="userDto">
+		select username, userid, email, joindate, authority
+		from ssafy_member
+		where userid = #{userid}
+	</select>
+	
+	<select id = "getRefreshToken" parameterType = "String" resultType = "String">
+		select token
+		from ssafy_member
+		where userid = #{userid}
+	</select>
+	
+	<update id="saveRefreshToken" parameterType = "Map">
+		update ssafy_member
+		set token = #{token}
+		where userid = #{userid}
+	</update>
+	
+	<update id="deleteRefreshToken" parameterType = "Map">
+		update ssafy_member
+		set token = #{token, jdbcType=VARCHAR}
+		where userid = #{userid}
+	</update>
+	
+	<update id="updateMember" parameterType="UserDto">
+		update ssafy_member
+		<trim prefix="set" suffixOverrides=",">
+			<if test="userpwd != null">userpwd = #{userpwd},</if>
+			<if test="username != null">username = #{username},</if>
+			<if test="email != null">email = #{email},</if>
+		</trim>
+		where userid = #{userid}
+	</update>
+	
+	<delete id="deleteMember" parameterType="String">
+		delete from ssafy_member
+		where userid = #{userid}
+	</delete>
+	
+	<select id="findpw" parameterType="map" resultType="String">
+		select userpwd
+		from ssafy_member
+		where userid = #{userid} and email= #{email}
+	</select>
+	
+	<select id="idcheck" parameterType="String" resultType="int">
+		SELECT COUNT(userid) FROM ssafy_member WHERE userid = #{userid}
+	</select>
+	
+
+</mapper>

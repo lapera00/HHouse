@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.vue.mapper.CommentMapper">
+
+	<select id="getComment" parameterType="String" resultType="CommentDto">
+
+		select boardcomment.articleno, boardcomment.commentno, boardcomment.content, boardcomment.userid, boardcomment.regtime, ssafy_member.username 
+		from boardcomment, ssafy_member 
+		where articleno = #{articleno} and boardcomment.userid = ssafy_member.userid order by commentno asc;
+	</select>
+	
+	
+	<insert id="insertComment" parameterType="CommentDto">
+		insert into boardcomment(articleno, content, userid)
+		 values ( #{articleno}, #{content}, #{userid} );
+	</insert>
+	
+	<delete id="deleteComment" parameterType="String">
+		delete from boardcomment where commentno = ${commentno};
+	</delete>
+	
+	<select id="countComment" parameterType="String" resultType="int">
+		select count(commentno) from boardcomment where articleno = ${articleno} group by articleno;
+	</select>
+
+</mapper>
+

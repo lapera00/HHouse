@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.vue.mapper.HouseReviewMapper">
+
+
+	<select id="getReview" parameterType="String" resultType="HouseReviewDto">
+
+        select housereview.aptCode, housereview.commentno, housereview.content, housereview.userid, housereview.regtime, housereview.star, ssafy_member.username 
+		from housereview, ssafy_member 
+		where housereview.aptCode = #{aptCode} and housereview.userid = ssafy_member.userid order by commentno asc
+	</select>
+	
+	<insert id="insertReview" parameterType="HouseReviewDto">
+		insert into housereview(aptCode, content, userid)
+		 values ( #{aptCode}, #{content}, #{userid} );
+	</insert>
+	
+	<delete id="deleteReview" parameterType="String">
+		delete from housereview where commentno = ${commentno};
+	</delete>
+	
+
+
+<!-- 	
+	
+
+
+	
+	<select id="countComment" parameterType="String" resultType="int">
+		select count(commentno) from boardcomment where articleno = ${articleno} group by articleno;
+	</select> -->
+
+</mapper>
+

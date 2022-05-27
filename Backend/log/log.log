@@ -1,0 +1,354 @@
+[2m2022-05-26 08:58:54.222[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-05-26 08:58:54.227[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-05-26 08:58:55.318[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-05-26 08:58:55.491[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1264 ms
+[2m2022-05-26 08:58:56.131[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-05-26 08:58:56.298[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-05-26 09:05:40.450[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-26 09:05:40.455[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 4 ms
+[2m2022-05-26 09:05:40.586[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:05:40.586[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:05:40.605[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:09:21.333[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-26 09:09:21.373[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m access토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzNzYxMzQyLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjQzNjEsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6IjEyMyJ9.OZCJ0U9F0ap_09C9WdQQi4ubJjY6d37OHCztCMD6o78
+[2m2022-05-26 09:09:21.375[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m refresh 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzNzYxMzY3LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjY3NjEsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiIxMjMifQ.MahPrB7GzrYE1dQX11bzOYe4-x1za5eF1Hx0ZsvdC8g
+[2m2022-05-26 09:09:21.425[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523761342, alg=HS256},body={exp=1653524361, sub=access-token, userid=123},signature=OZCJ0U9F0ap_09C9WdQQi4ubJjY6d37OHCztCMD6o78
+[2m2022-05-26 09:09:21.425[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:09:22.534[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:22.539[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:09:22.554[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:28.286[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeBoard - 호출
+[2m2022-05-26 09:09:28.322[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:28.341[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:09:30.844[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:09:30.844[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:09:32.711[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:09:36.328[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:09:36.328[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:09:36.352[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:36.659[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:36.677[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:09:38.724[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:09:38.724[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:09:41.035[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteBoard - 호출
+[2m2022-05-26 09:09:41.098[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:09:41.124[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:09:51.995[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@42db5120, com.ssafy.vue.dto.SidoGugunDongCodeDto@7510fee7, com.ssafy.vue.dto.SidoGugunDongCodeDto@644d6c3b, com.ssafy.vue.dto.SidoGugunDongCodeDto@236b04e1, com.ssafy.vue.dto.SidoGugunDongCodeDto@3b2113fd, com.ssafy.vue.dto.SidoGugunDongCodeDto@493425b8, com.ssafy.vue.dto.SidoGugunDongCodeDto@4617b411, com.ssafy.vue.dto.SidoGugunDongCodeDto@3da0fc3e, com.ssafy.vue.dto.SidoGugunDongCodeDto@eadae8c, com.ssafy.vue.dto.SidoGugunDongCodeDto@665c5304, com.ssafy.vue.dto.SidoGugunDongCodeDto@1d10c4e2, com.ssafy.vue.dto.SidoGugunDongCodeDto@27eb8a72, com.ssafy.vue.dto.SidoGugunDongCodeDto@445189cd, com.ssafy.vue.dto.SidoGugunDongCodeDto@40912630, com.ssafy.vue.dto.SidoGugunDongCodeDto@5b3ddd14, com.ssafy.vue.dto.SidoGugunDongCodeDto@207e741b, com.ssafy.vue.dto.SidoGugunDongCodeDto@68299e38]
+[2m2022-05-26 09:09:56.794[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m JWT String argument cannot be null or empty.
+[2m2022-05-26 09:09:56.794[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2022-05-26 09:10:08.417[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-26 09:10:08.422[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m access토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzODA4NDE5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjQ0MDgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6IjEyMyJ9.h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:10:08.422[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m refresh 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzODA4NDE5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjY4MDgsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiIxMjMifQ.VMBatvIWExivh7OnwdCIaBrNKXHkNnt9-bfQw5zuy-4
+[2m2022-05-26 09:10:08.438[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:10:08.439[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:10:12.620[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:10:12.620[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:10:14.887[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:10:14.887[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:10:15.813[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:10:15.813[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:10:27.797[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m getLikeHouse - 호출
+[2m2022-05-26 09:11:45.006[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:11:45.006[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:11:45.030[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523808419, alg=HS256},body={exp=1653524408, sub=access-token, userid=123},signature=h9m00FfsCPXODp5sqywqOnek55BWpyk8xi7PP-_TuBk
+[2m2022-05-26 09:11:45.031[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:11:56.810[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-26 09:11:56.817[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m access토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzOTE2ODE0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjQ1MTYsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6IjEyMyJ9.9OZTaeOdjAJUWkBdz_xqdPsz8hZSpQ9F_rIuSC-4154
+[2m2022-05-26 09:11:56.818[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m refresh 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTIzOTE2ODE0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjY5MTYsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiIxMjMifQ.dNEDiDtRS1x8Sh-kAv9LYC6rdKTj43QcE2WBf42KcGM
+[2m2022-05-26 09:11:56.835[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523916814, alg=HS256},body={exp=1653524516, sub=access-token, userid=123},signature=9OZTaeOdjAJUWkBdz_xqdPsz8hZSpQ9F_rIuSC-4154
+[2m2022-05-26 09:11:56.836[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:12:00.001[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523916814, alg=HS256},body={exp=1653524516, sub=access-token, userid=123},signature=9OZTaeOdjAJUWkBdz_xqdPsz8hZSpQ9F_rIuSC-4154
+[2m2022-05-26 09:12:00.001[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:12:00.030[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653523916814, alg=HS256},body={exp=1653524516, sub=access-token, userid=123},signature=9OZTaeOdjAJUWkBdz_xqdPsz8hZSpQ9F_rIuSC-4154
+[2m2022-05-26 09:12:00.031[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:13:35.394[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-26 09:13:35.403[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m access토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTI0MDE1Mzk4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjQ2MTUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6IjEyMyJ9.is2sh-6fpmEPfFX4XTeElXQam8CAvhdyiYn1Mo_6lfo
+[2m2022-05-26 09:13:35.403[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m refresh 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTI0MDE1Mzk4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjcwMTUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiIxMjMifQ.YKxhcsdLCk39uZHkvUlGxI6gwaEQDRdllFL9um2MVjE
+[2m2022-05-26 09:13:35.426[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653524015398, alg=HS256},body={exp=1653524615, sub=access-token, userid=123},signature=is2sh-6fpmEPfFX4XTeElXQam8CAvhdyiYn1Mo_6lfo
+[2m2022-05-26 09:13:35.426[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:13:42.661[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653524015398, alg=HS256},body={exp=1653524615, sub=access-token, userid=123},signature=is2sh-6fpmEPfFX4XTeElXQam8CAvhdyiYn1Mo_6lfo
+[2m2022-05-26 09:13:42.661[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:13:42.708[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653524015398, alg=HS256},body={exp=1653524615, sub=access-token, userid=123},signature=is2sh-6fpmEPfFX4XTeElXQam8CAvhdyiYn1Mo_6lfo
+[2m2022-05-26 09:13:42.709[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:14:04.330[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@557bde39, com.ssafy.vue.dto.SidoGugunDongCodeDto@4f14a533, com.ssafy.vue.dto.SidoGugunDongCodeDto@357e93e6, com.ssafy.vue.dto.SidoGugunDongCodeDto@7930214a, com.ssafy.vue.dto.SidoGugunDongCodeDto@7231a243, com.ssafy.vue.dto.SidoGugunDongCodeDto@18e6ac0b, com.ssafy.vue.dto.SidoGugunDongCodeDto@59c6fd52, com.ssafy.vue.dto.SidoGugunDongCodeDto@2184bd51, com.ssafy.vue.dto.SidoGugunDongCodeDto@5e582098, com.ssafy.vue.dto.SidoGugunDongCodeDto@737349ac, com.ssafy.vue.dto.SidoGugunDongCodeDto@1d3106fd, com.ssafy.vue.dto.SidoGugunDongCodeDto@195b5e3f, com.ssafy.vue.dto.SidoGugunDongCodeDto@618e16c, com.ssafy.vue.dto.SidoGugunDongCodeDto@6fcff62a, com.ssafy.vue.dto.SidoGugunDongCodeDto@7a5c03c0, com.ssafy.vue.dto.SidoGugunDongCodeDto@39350012, com.ssafy.vue.dto.SidoGugunDongCodeDto@78e785d9]
+[2m2022-05-26 09:14:08.054[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun : [com.ssafy.vue.dto.SidoGugunDongCodeDto@2999c8cc, com.ssafy.vue.dto.SidoGugunDongCodeDto@7e3328cf, com.ssafy.vue.dto.SidoGugunDongCodeDto@694de5dd, com.ssafy.vue.dto.SidoGugunDongCodeDto@5ca2d3df, com.ssafy.vue.dto.SidoGugunDongCodeDto@3b1aaf2f, com.ssafy.vue.dto.SidoGugunDongCodeDto@5c888dd3, com.ssafy.vue.dto.SidoGugunDongCodeDto@5aedf892, com.ssafy.vue.dto.SidoGugunDongCodeDto@109bf43b, com.ssafy.vue.dto.SidoGugunDongCodeDto@7e1652d0, com.ssafy.vue.dto.SidoGugunDongCodeDto@6668aed4, com.ssafy.vue.dto.SidoGugunDongCodeDto@53f4f3e3, com.ssafy.vue.dto.SidoGugunDongCodeDto@1c81ef8a, com.ssafy.vue.dto.SidoGugunDongCodeDto@50cdbe18, com.ssafy.vue.dto.SidoGugunDongCodeDto@7370b4db, com.ssafy.vue.dto.SidoGugunDongCodeDto@7ef3abd, com.ssafy.vue.dto.SidoGugunDongCodeDto@14016875, com.ssafy.vue.dto.SidoGugunDongCodeDto@29813993, com.ssafy.vue.dto.SidoGugunDongCodeDto@5fa18614, com.ssafy.vue.dto.SidoGugunDongCodeDto@2165758f, com.ssafy.vue.dto.SidoGugunDongCodeDto@3eb8f316, com.ssafy.vue.dto.SidoGugunDongCodeDto@1ed508f3, com.ssafy.vue.dto.SidoGugunDongCodeDto@4d97ac1b, com.ssafy.vue.dto.SidoGugunDongCodeDto@4754612b, com.ssafy.vue.dto.SidoGugunDongCodeDto@3e0d0a94, com.ssafy.vue.dto.SidoGugunDongCodeDto@8a90f36]
+[2m2022-05-26 09:14:16.618[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deal - 호출
+[2m2022-05-26 09:14:16.824[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m getLikeHouse - 호출
+[2m2022-05-26 09:14:18.133[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.v.controller.HouseReviewController  [0;39m [2m:[0;39m getreview - 호출
+[2m2022-05-26 09:14:19.659[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.v.controller.HouseReviewController  [0;39m [2m:[0;39m getreview - 호출
+[2m2022-05-26 09:14:22.327[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.v.controller.HouseReviewController  [0;39m [2m:[0;39m getreview - 호출
+[2m2022-05-26 09:14:24.257[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:14:24.957[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:07.149[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@23736cc, com.ssafy.vue.dto.SidoGugunDongCodeDto@6e80adac, com.ssafy.vue.dto.SidoGugunDongCodeDto@7c9fe9c, com.ssafy.vue.dto.SidoGugunDongCodeDto@1aa864f0, com.ssafy.vue.dto.SidoGugunDongCodeDto@2192a03f, com.ssafy.vue.dto.SidoGugunDongCodeDto@4a14846c, com.ssafy.vue.dto.SidoGugunDongCodeDto@261aeac, com.ssafy.vue.dto.SidoGugunDongCodeDto@5b37c5f4, com.ssafy.vue.dto.SidoGugunDongCodeDto@6f1015f5, com.ssafy.vue.dto.SidoGugunDongCodeDto@1c9cb9f, com.ssafy.vue.dto.SidoGugunDongCodeDto@ed201c4, com.ssafy.vue.dto.SidoGugunDongCodeDto@6baf6d8f, com.ssafy.vue.dto.SidoGugunDongCodeDto@4ff72b2, com.ssafy.vue.dto.SidoGugunDongCodeDto@4ba5d481, com.ssafy.vue.dto.SidoGugunDongCodeDto@55673010, com.ssafy.vue.dto.SidoGugunDongCodeDto@4534fc26, com.ssafy.vue.dto.SidoGugunDongCodeDto@3aa17cd0]
+[2m2022-05-26 09:16:10.444[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@2671ce2e, com.ssafy.vue.dto.SidoGugunDongCodeDto@73775884, com.ssafy.vue.dto.SidoGugunDongCodeDto@2fe40c8b, com.ssafy.vue.dto.SidoGugunDongCodeDto@2bae5c86, com.ssafy.vue.dto.SidoGugunDongCodeDto@306f763, com.ssafy.vue.dto.SidoGugunDongCodeDto@4a7c3cff, com.ssafy.vue.dto.SidoGugunDongCodeDto@45f3f16f, com.ssafy.vue.dto.SidoGugunDongCodeDto@1c60cf3b, com.ssafy.vue.dto.SidoGugunDongCodeDto@28e99e3b, com.ssafy.vue.dto.SidoGugunDongCodeDto@359c41d, com.ssafy.vue.dto.SidoGugunDongCodeDto@597b3590, com.ssafy.vue.dto.SidoGugunDongCodeDto@43783093, com.ssafy.vue.dto.SidoGugunDongCodeDto@27046681, com.ssafy.vue.dto.SidoGugunDongCodeDto@6ab03750, com.ssafy.vue.dto.SidoGugunDongCodeDto@6ae74823, com.ssafy.vue.dto.SidoGugunDongCodeDto@68991144, com.ssafy.vue.dto.SidoGugunDongCodeDto@6cad52b8]
+[2m2022-05-26 09:16:13.144[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:16:13.144[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:16:13.172[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:16:16.225[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@5c983927, com.ssafy.vue.dto.SidoGugunDongCodeDto@38f7711c, com.ssafy.vue.dto.SidoGugunDongCodeDto@f4f9592, com.ssafy.vue.dto.SidoGugunDongCodeDto@26f0d924, com.ssafy.vue.dto.SidoGugunDongCodeDto@3bbc9ddc, com.ssafy.vue.dto.SidoGugunDongCodeDto@38c06426, com.ssafy.vue.dto.SidoGugunDongCodeDto@4b5095a9, com.ssafy.vue.dto.SidoGugunDongCodeDto@6b494c1e, com.ssafy.vue.dto.SidoGugunDongCodeDto@34447ed6, com.ssafy.vue.dto.SidoGugunDongCodeDto@f1edd2c, com.ssafy.vue.dto.SidoGugunDongCodeDto@40acfcbb, com.ssafy.vue.dto.SidoGugunDongCodeDto@6124610c, com.ssafy.vue.dto.SidoGugunDongCodeDto@76010130, com.ssafy.vue.dto.SidoGugunDongCodeDto@f0f4561, com.ssafy.vue.dto.SidoGugunDongCodeDto@2861391f, com.ssafy.vue.dto.SidoGugunDongCodeDto@6a8f011e, com.ssafy.vue.dto.SidoGugunDongCodeDto@14f985fe]
+[2m2022-05-26 09:16:18.916[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun : [com.ssafy.vue.dto.SidoGugunDongCodeDto@5ff62a05, com.ssafy.vue.dto.SidoGugunDongCodeDto@13f795b0, com.ssafy.vue.dto.SidoGugunDongCodeDto@25630f47, com.ssafy.vue.dto.SidoGugunDongCodeDto@7b4cb4bc, com.ssafy.vue.dto.SidoGugunDongCodeDto@15841fd2, com.ssafy.vue.dto.SidoGugunDongCodeDto@3a7152c7, com.ssafy.vue.dto.SidoGugunDongCodeDto@7556bf9, com.ssafy.vue.dto.SidoGugunDongCodeDto@19a2c6fb, com.ssafy.vue.dto.SidoGugunDongCodeDto@2ced2092, com.ssafy.vue.dto.SidoGugunDongCodeDto@1c3ab8a2, com.ssafy.vue.dto.SidoGugunDongCodeDto@301c027f, com.ssafy.vue.dto.SidoGugunDongCodeDto@3f069f99, com.ssafy.vue.dto.SidoGugunDongCodeDto@7a2ac15b, com.ssafy.vue.dto.SidoGugunDongCodeDto@339c8914, com.ssafy.vue.dto.SidoGugunDongCodeDto@63c36ae2, com.ssafy.vue.dto.SidoGugunDongCodeDto@6832db54, com.ssafy.vue.dto.SidoGugunDongCodeDto@44beff10, com.ssafy.vue.dto.SidoGugunDongCodeDto@133d0aba, com.ssafy.vue.dto.SidoGugunDongCodeDto@6b51e645, com.ssafy.vue.dto.SidoGugunDongCodeDto@15c76800, com.ssafy.vue.dto.SidoGugunDongCodeDto@263243d7, com.ssafy.vue.dto.SidoGugunDongCodeDto@5da1f571, com.ssafy.vue.dto.SidoGugunDongCodeDto@39a6434e, com.ssafy.vue.dto.SidoGugunDongCodeDto@178fbb12, com.ssafy.vue.dto.SidoGugunDongCodeDto@23176ecf]
+[2m2022-05-26 09:16:22.128[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deal - 호출
+[2m2022-05-26 09:16:22.464[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m getLikeHouse - 호출
+[2m2022-05-26 09:16:23.086[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:16:23.693[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:36.589[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:36.737[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+### The error may exist in file [C:\SSAFY\workspace\07-framework\happyhouse_framework_2\target\classes\mappers\apt.xml]
+### The error may involve com.ssafy.vue.mapper.HouseMapMapper.registLikeHouse-Inline
+### The error occurred while setting parameters
+### SQL: insert into likehouse(    userid, aptCode   ) values (    ?, ?   )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+; Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy85.registLikeHouse(Unknown Source)
+	at com.ssafy.vue.service.HouseMapServiceImpl.registLikeHouse(HouseMapServiceImpl.java:53)
+	at com.ssafy.vue.controller.HouseMapController.registLikeHouse(HouseMapController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-26 09:16:37.705[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:37.713[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+### The error may exist in file [C:\SSAFY\workspace\07-framework\happyhouse_framework_2\target\classes\mappers\apt.xml]
+### The error may involve com.ssafy.vue.mapper.HouseMapMapper.registLikeHouse-Inline
+### The error occurred while setting parameters
+### SQL: insert into likehouse(    userid, aptCode   ) values (    ?, ?   )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+; Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'] with root cause
+
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '123-11110000000042' for key 'likehouse.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:371)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy81.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy85.registLikeHouse(Unknown Source)
+	at com.ssafy.vue.service.HouseMapServiceImpl.registLikeHouse(HouseMapServiceImpl.java:53)
+	at com.ssafy.vue.controller.HouseMapController.registLikeHouse(HouseMapController.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-05-26 09:16:40.230[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@52b5e45d, com.ssafy.vue.dto.SidoGugunDongCodeDto@abb4d80, com.ssafy.vue.dto.SidoGugunDongCodeDto@2c47801c, com.ssafy.vue.dto.SidoGugunDongCodeDto@68f65a08, com.ssafy.vue.dto.SidoGugunDongCodeDto@159ccc47, com.ssafy.vue.dto.SidoGugunDongCodeDto@451b4439, com.ssafy.vue.dto.SidoGugunDongCodeDto@554c7be6, com.ssafy.vue.dto.SidoGugunDongCodeDto@fb05d5d, com.ssafy.vue.dto.SidoGugunDongCodeDto@7c3d5618, com.ssafy.vue.dto.SidoGugunDongCodeDto@6318ef2a, com.ssafy.vue.dto.SidoGugunDongCodeDto@553d3be4, com.ssafy.vue.dto.SidoGugunDongCodeDto@58eaceab, com.ssafy.vue.dto.SidoGugunDongCodeDto@4ef1de38, com.ssafy.vue.dto.SidoGugunDongCodeDto@6a341973, com.ssafy.vue.dto.SidoGugunDongCodeDto@56eaedca, com.ssafy.vue.dto.SidoGugunDongCodeDto@587bee2a, com.ssafy.vue.dto.SidoGugunDongCodeDto@183bfb03]
+[2m2022-05-26 09:16:42.396[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun : [com.ssafy.vue.dto.SidoGugunDongCodeDto@10c5ef83, com.ssafy.vue.dto.SidoGugunDongCodeDto@8bc8a42, com.ssafy.vue.dto.SidoGugunDongCodeDto@1173cf1, com.ssafy.vue.dto.SidoGugunDongCodeDto@3fb61792, com.ssafy.vue.dto.SidoGugunDongCodeDto@b04e10, com.ssafy.vue.dto.SidoGugunDongCodeDto@6c323ade, com.ssafy.vue.dto.SidoGugunDongCodeDto@54fa731d, com.ssafy.vue.dto.SidoGugunDongCodeDto@5bfff497, com.ssafy.vue.dto.SidoGugunDongCodeDto@59bdf136, com.ssafy.vue.dto.SidoGugunDongCodeDto@24a4c415, com.ssafy.vue.dto.SidoGugunDongCodeDto@23413907, com.ssafy.vue.dto.SidoGugunDongCodeDto@7be3ab4, com.ssafy.vue.dto.SidoGugunDongCodeDto@31bc4f34, com.ssafy.vue.dto.SidoGugunDongCodeDto@333aa17a, com.ssafy.vue.dto.SidoGugunDongCodeDto@19192f1b, com.ssafy.vue.dto.SidoGugunDongCodeDto@6f84cd16, com.ssafy.vue.dto.SidoGugunDongCodeDto@3c92ea3d, com.ssafy.vue.dto.SidoGugunDongCodeDto@5a45bda4, com.ssafy.vue.dto.SidoGugunDongCodeDto@a742000, com.ssafy.vue.dto.SidoGugunDongCodeDto@43d1b025, com.ssafy.vue.dto.SidoGugunDongCodeDto@68397960, com.ssafy.vue.dto.SidoGugunDongCodeDto@1fe6415e, com.ssafy.vue.dto.SidoGugunDongCodeDto@34391682, com.ssafy.vue.dto.SidoGugunDongCodeDto@7aa7c8b8, com.ssafy.vue.dto.SidoGugunDongCodeDto@59f64cf5]
+[2m2022-05-26 09:16:45.507[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deal - 호출
+[2m2022-05-26 09:16:45.632[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m getLikeHouse - 호출
+[2m2022-05-26 09:16:46.427[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:16:46.950[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:48.037[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:16:53.789[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:16:54.574[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:05.832[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:06.516[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:13.496[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:15.005[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:18.674[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:20.145[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:28.822[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:29.504[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:37.718[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:38.340[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:45.013[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:45.527[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:51.050[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:17:51.529[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:17:53.589[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:17:53.593[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:17:53.863[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:17:56.979[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:17:56.991[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:18:00.855[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:18:00.857[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:18:00.877[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:01.070[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:18:01.070[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:11.762[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:11.762[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:18:11.767[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:13.312[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:13.312[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:18:13.327[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:14.844[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:14.845[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:18:14.856[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:18:32.429[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m sido : [com.ssafy.vue.dto.SidoGugunDongCodeDto@7aed9964, com.ssafy.vue.dto.SidoGugunDongCodeDto@270d3853, com.ssafy.vue.dto.SidoGugunDongCodeDto@170b9f33, com.ssafy.vue.dto.SidoGugunDongCodeDto@62884851, com.ssafy.vue.dto.SidoGugunDongCodeDto@7438cbdd, com.ssafy.vue.dto.SidoGugunDongCodeDto@3ab9aaa9, com.ssafy.vue.dto.SidoGugunDongCodeDto@710058ca, com.ssafy.vue.dto.SidoGugunDongCodeDto@516a5c7b, com.ssafy.vue.dto.SidoGugunDongCodeDto@63be03a8, com.ssafy.vue.dto.SidoGugunDongCodeDto@14a50194, com.ssafy.vue.dto.SidoGugunDongCodeDto@6710ddc2, com.ssafy.vue.dto.SidoGugunDongCodeDto@641accdf, com.ssafy.vue.dto.SidoGugunDongCodeDto@772a20b7, com.ssafy.vue.dto.SidoGugunDongCodeDto@4b3f3667, com.ssafy.vue.dto.SidoGugunDongCodeDto@2aa00c0f, com.ssafy.vue.dto.SidoGugunDongCodeDto@186e41b0, com.ssafy.vue.dto.SidoGugunDongCodeDto@3ee7e592]
+[2m2022-05-26 09:18:35.882[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m gugun : [com.ssafy.vue.dto.SidoGugunDongCodeDto@5e7b9691, com.ssafy.vue.dto.SidoGugunDongCodeDto@9575712, com.ssafy.vue.dto.SidoGugunDongCodeDto@5a0f0417, com.ssafy.vue.dto.SidoGugunDongCodeDto@39f617a4, com.ssafy.vue.dto.SidoGugunDongCodeDto@3bbbc115, com.ssafy.vue.dto.SidoGugunDongCodeDto@867feb7, com.ssafy.vue.dto.SidoGugunDongCodeDto@2aea7c10, com.ssafy.vue.dto.SidoGugunDongCodeDto@232805de, com.ssafy.vue.dto.SidoGugunDongCodeDto@46fecbc7, com.ssafy.vue.dto.SidoGugunDongCodeDto@71db07e9, com.ssafy.vue.dto.SidoGugunDongCodeDto@8a8ff3e, com.ssafy.vue.dto.SidoGugunDongCodeDto@6b4d0d00, com.ssafy.vue.dto.SidoGugunDongCodeDto@5bdd435d, com.ssafy.vue.dto.SidoGugunDongCodeDto@7290f380, com.ssafy.vue.dto.SidoGugunDongCodeDto@3d8ea3e3, com.ssafy.vue.dto.SidoGugunDongCodeDto@3e288c5f, com.ssafy.vue.dto.SidoGugunDongCodeDto@fdef76c, com.ssafy.vue.dto.SidoGugunDongCodeDto@7a2719e4, com.ssafy.vue.dto.SidoGugunDongCodeDto@32fe3cf8, com.ssafy.vue.dto.SidoGugunDongCodeDto@484e048c, com.ssafy.vue.dto.SidoGugunDongCodeDto@3053ef7e, com.ssafy.vue.dto.SidoGugunDongCodeDto@72f928a9, com.ssafy.vue.dto.SidoGugunDongCodeDto@3123d3f2, com.ssafy.vue.dto.SidoGugunDongCodeDto@9f1db3e, com.ssafy.vue.dto.SidoGugunDongCodeDto@26f6fd61]
+[2m2022-05-26 09:18:39.176[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deal - 호출
+[2m2022-05-26 09:18:39.386[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m getLikeHouse - 호출
+[2m2022-05-26 09:18:42.253[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:18:42.708[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:18:55.604[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:18:56.071[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:19:48.511[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m registLikeHouse - 호출
+[2m2022-05-26 09:19:49.159[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.vue.controller.HouseMapController   [0;39m [2m:[0;39m deleteLikeHouse - 호출
+[2m2022-05-26 09:21:35.562[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:21:35.571[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:21:35.665[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:22:04.972[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:22:04.974[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:31:46.318[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:31:46.319[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:31:46.327[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:31:48.714[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:31:48.717[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:31:54.953[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:31:54.957[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:31:54.990[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:31:55.120[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:31:55.123[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:31:56.827[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m detailBoard - 호출
+[2m2022-05-26 09:31:56.827[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.vue.controller.CommentController    [0;39m [2m:[0;39m detailBoardComment - 호출
+[2m2022-05-26 09:31:59.375[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteBoard - 호출
+[2m2022-05-26 09:31:59.420[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardTotalCount - 호출
+[2m2022-05-26 09:31:59.420[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m selectBoardLimitOffset - 호출
+[2m2022-05-26 09:32:03.723[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m JWT String argument cannot be null or empty.
+[2m2022-05-26 09:32:03.723[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2022-05-26 09:32:03.743[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-05-26T09:23:35Z. Current time: 2022-05-26T09:32:03Z, a difference of 508741 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2m2022-05-26 09:32:03.744[0;39m [31mERROR[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
+[2m2022-05-26 09:32:08.202[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 로그인 요청
+[2m2022-05-26 09:32:08.208[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m access토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTI1MTI4MjA0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjU3MjgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6IjEyMyJ9.IDBvA8Fqqhb6CEWGTTyEsrUqiuwdNUU8BhMA_5GP2Ac
+[2m2022-05-26 09:32:08.208[0;39m [32mDEBUG[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m refresh 토큰정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjUzNTI1MTI4MjA0LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NTM1MjgxMjgsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiIxMjMifQ.7EQQ2PiAHWgsw_4YEwvjXlKRkSIMsc56yMSJyuR4lVE
+[2m2022-05-26 09:32:08.220[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653525128204, alg=HS256},body={exp=1653525728, sub=access-token, userid=123},signature=IDBvA8Fqqhb6CEWGTTyEsrUqiuwdNUU8BhMA_5GP2Ac
+[2m2022-05-26 09:32:08.220[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:32:11.985[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653525128204, alg=HS256},body={exp=1653525728, sub=access-token, userid=123},signature=IDBvA8Fqqhb6CEWGTTyEsrUqiuwdNUU8BhMA_5GP2Ac
+[2m2022-05-26 09:32:11.985[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 09:32:12.011[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.service.jwtServiceImpl    [0;39m [2m:[0;39m claims: header={typ=JWT, regDate=1653525128204, alg=HS256},body={exp=1653525728, sub=access-token, userid=123},signature=IDBvA8Fqqhb6CEWGTTyEsrUqiuwdNUU8BhMA_5GP2Ac
+[2m2022-05-26 09:32:12.012[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mcom.ssafy.vue.controller.UserController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
+[2m2022-05-26 10:00:24.237[0;39m [32m INFO[0;39m [35m23908[0;39m [2m---[0;39m [2m[n(70)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
